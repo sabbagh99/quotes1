@@ -16,3 +16,9 @@ implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
 * #### Add your absolute path in the *getRandomBook* method to make run and get random book .
 * #### You can the  application in terminal using this command `./gradlew run `
 * #### And for running the test you need this command `./gradlew test`
+
+# *Lab 9* Web requests
+
+## For today lab we start reading data from API using buffer reader and input stream to deal correctly with it.
+### `apiQuotes`
+#### we create this class to get data from api and save it in the json file.
