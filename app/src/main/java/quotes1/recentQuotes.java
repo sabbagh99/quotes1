@@ -1,4 +1,5 @@
 package quotes1;
+
 import java.util.Arrays;
 public class recentQuotes {
 
