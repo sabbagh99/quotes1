@@ -77,7 +77,7 @@ public class App {
     }
     public static recentQuotes[] readQuote() throws FileNotFoundException {
         Gson gson = new Gson();
-        Reader reader = new FileReader("/home/sabbagh99/Desktop/ASAC/code-401/quotes/recentquotes.json");
+        Reader reader = new FileReader("/home/sabbagh99/Desktop/ASAC/code-401/quotes1/app/src/main/resources/recentquotes.json");
         recentQuotes[] convertedObject = gson.fromJson(reader, recentQuotes[].class);
         return convertedObject;
     }
